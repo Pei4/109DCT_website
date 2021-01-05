@@ -3,22 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
-    <title>劇情介紹</title>
-    <!--<link rel=stylesheet type="text/css" href="../reset.css">-->
+    <title>深入探索</title>
+    <link rel=stylesheet type="text/css" href="reset.css">
     <link rel=stylesheet type="text/css" href="scss/web.css">
+    <script src="../javascript/sideway.js"></script>
+    <script src="../javascript/do.js"></script>
 </head>
 <body>
 <nav class="navbar">
     <ul>
-        <li><a href="2_story_1.html">劇情介紹</a><hr></li>
-        <li><a href="3_todo_1.html">我可以做什麼</a><hr></li>
-        <li><a href="4_catalog_1.html">星球圖鑑</a><hr></li>
-        <li><a href="5_about_1.html">關於我們</a><hr></li>
-        <li><a href="6_source_1.html">深入探索</a><hr></li>
+        <li><a href="2_story.html">劇情介紹</a><hr></li>
+        <li><a href="3_todo.html">我可以做什麼</a><hr></li>
+        <li><a href="4_catalog.html">星球圖鑑</a><hr></li>
+        <li><a href="5_about.html">關於我們</a><hr></li>
+        <li><a href="6_source.html">深入探索</a><hr></li>
     </ul>
 </nav>
+
+<!--
 <button class="left"></button>
-<button class="right"></button>
+<button class="right"></button>-->
+
+<!--橫向Slide-->
+<div class="sideways">
+    <div class="pages">
+        <section class="page page-1" style="background: red">
+            <div class="page-right">Navigation(Right)</div>
+        </section>
+        <section class="page page-2" style="background: blue">
+            <div class="page-left">Navigation(left)</div>
+            <div class="page-right">Navigation(Right)</div>
+        </section>
+        <section class="page page-last" style="background: green">
+            <div class="page-left">Navigation(left)</div>
+        </section>
+    </div>
+</div>
+
 <nav class="dots dots-fill">
     <ul>
         <li><a href="2_story_1.html">故事背景</a><hr></li>
